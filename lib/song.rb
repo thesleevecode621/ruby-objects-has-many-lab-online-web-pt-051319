@@ -6,7 +6,7 @@
     @name = name
    @@all<< name 
   end
-e
+
   def all 
     @@all 
   end 
