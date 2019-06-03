@@ -1,12 +1,12 @@
  class Song
  
   attr_accessor :name,
- @@all
+ @@all =[]
   def initialize(name)
     @name = name
    @@all<< name 
   end
-end 
+e
   def all 
     @@all 
   end 
