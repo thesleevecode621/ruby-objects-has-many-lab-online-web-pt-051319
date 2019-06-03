@@ -8,6 +8,8 @@ attr_accessor :name
   def posts
     @posts
   end
-  def add_post(post)
+  def add_post(posts)
+    @posts << posts
+    self.author
   
 end 
