@@ -9,7 +9,7 @@
  
   def add_song(song)
     @songs << song
-    song.artist = self
+    song.Artist = self
   end
  
   def songs
