@@ -2,7 +2,7 @@
  
   attr_accessor :name,
   
- @@All = []
+ @@all = []
   def initialize(name)
     @name = name
    @@All<< name 
