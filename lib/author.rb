@@ -13,7 +13,7 @@ attr_accessor :name
     posts.author = self 
   end 
   def add_post_by_title(title)
-    title = title.new 
+    posts = Post.new(title)
   end 
   
 end 
