@@ -20,7 +20,7 @@ def add_song_by_name(name)
     @songs
   end
  def song_count
-  self.@songs.count
+  @songs.count
  end 
   
 end
