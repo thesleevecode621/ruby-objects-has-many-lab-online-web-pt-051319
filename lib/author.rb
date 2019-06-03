@@ -12,4 +12,5 @@ attr_accessor :name
     @posts << posts 
     posts.author = self 
   end 
+  def 
 end 
