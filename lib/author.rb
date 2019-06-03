@@ -11,5 +11,5 @@ attr_accessor :name
   def add_post(posts)
     @posts << self 
     self.author = self 
-  
+  end 
 end 
