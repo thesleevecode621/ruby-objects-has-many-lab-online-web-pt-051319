@@ -5,7 +5,7 @@
  
   def initialize(name)
     @name = name
-    
+     @@all = []
   @@all  << name 
   end
 
