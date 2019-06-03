@@ -2,14 +2,14 @@
  
   attr_accessor :name,
   
- @@all = []
+  @@all = []
   def initialize(name)
     @name = name
   @@all  << name 
   end
 
   def all 
-    @@All 
+   @@all 
   end 
  def artist_name
     self.artist.name
