@@ -11,7 +11,7 @@
     @songs << song
     song.artist = self
   end
-
+add
   def songs
     @songs
   end
